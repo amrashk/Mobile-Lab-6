@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Weather</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">Today`s Forecast</string>
+    <string name="second_fragment_label">7 days weather forecast</string>
+    <string name="previous">Back</string>
+    <string name="next">7 days weather forecast</string>
+    <string name="city">City:</string>
+    <string name="temp">Temperature:</string>
+    <string name="description">description:</string>
+    <string name="wind_speed">Wind speed</string>
+    <string name="forecast">Forecast</string>
+</resources>
