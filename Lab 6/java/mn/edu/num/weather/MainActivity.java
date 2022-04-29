@@ -107,8 +107,7 @@ public class MainActivity extends AppCompatActivity {
                     JSONObject curr_condition = response.getJSONObject("current").getJSONObject("condition");
                     String cond = curr_condition.getString("text");
                     desc_val.setText(cond);
-                    //String condIcon = response.getJSONObject("current").getJSONObject("condition").getString("icon");
-                    //Picasso.get().load("http:".concat(condIcon)).into(ivImg);
+                   
                     if(isDay == 1){
                         Picasso.get().load("https://i.pinimg.com/564x/e2/76/39/e276395b56653bcd2de404b00ef1e3a7.jpg");
                     }else{
